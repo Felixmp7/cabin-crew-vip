@@ -3,5 +3,8 @@ module.exports = {
     setupFilesAfterEnv: [
         '<rootDir>/jest-setup.ts',
     ],
+    transform: {
+        '.+\\.(css|scss|png|jpg|svg)$': 'jest-transform-stub',
+    },
     testEnvironment: 'jsdom',
 };

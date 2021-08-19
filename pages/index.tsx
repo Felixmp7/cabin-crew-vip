@@ -1,12 +1,15 @@
 import NextHead from '../components/Head';
+import HomeSection from '../components/Home';
+import Courses from '../components/Courses';
 
-export default function Home(): JSX.Element {
-    return (
-        <>
-            <NextHead />
-            <main>
-                <h1>Cabin Crew VIP Training</h1>
-            </main>
-        </>
-    );
-}
+const Index = (): JSX.Element => (
+    <>
+        <NextHead />
+        <main>
+            <HomeSection />
+            <Courses />
+        </main>
+    </>
+);
+
+export default Index;
