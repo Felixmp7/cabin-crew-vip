@@ -16,10 +16,7 @@ const Courses = (): JSX.Element => (
                 Te brindaremos una guía direccional, adaptable a las circunstancias del momento, para alcanzar los fines y objetivos de la Empresa.
             </p>
             <div className="mt-10 text-center">
-                <button
-                    type="button"
-                    className="px-5 py-3 font-medium leading-none text-white bg-red-900 border-2 border-red-900 rounded-tr-lg rounded-bl-lg"
-                >
+                <button type="button" className="ease primary-button filled hover-shadow">
                     Más info
                 </button>
             </div>

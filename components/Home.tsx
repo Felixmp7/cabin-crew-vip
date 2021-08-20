@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 import React from 'react';
 
 const Home = (): JSX.Element => (
@@ -8,10 +7,7 @@ const Home = (): JSX.Element => (
             <h2 className="text-3xl comfortaa">Tu Centro de Instrucción Aeronáutica</h2>
         </div>
         <div className="absolute inset-x-0 text-center bottom-20">
-            <button
-                type="button"
-                className="px-5 py-3 text-lg font-medium leading-none text-red-900 transition-all duration-500 border-2 border-red-900 rounded ease hover:bg-red-900 hover:text-white"
-            >
+            <button type="button" className="ease primary-button hover-fill-primary">
                 Comenzar
             </button>
         </div>
