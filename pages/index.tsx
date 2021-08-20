@@ -1,13 +1,15 @@
-import NextHead from '../components/Head';
-import HomeSection from '../components/Home';
-import Courses from '../components/Courses';
+import Courses from '@components/Courses';
+import NextHead from '@components/Head';
+import Home from '@components/Home';
+import Team from '@components/Team';
 
 const Index = (): JSX.Element => (
     <>
         <NextHead />
         <main>
-            <HomeSection />
+            <Home />
             <Courses />
+            <Team />
         </main>
     </>
 );
