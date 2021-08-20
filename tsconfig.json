@@ -21,14 +21,14 @@
         "rootDir": ".",
         "baseUrl": ".",
         "paths": { //alias pathing for absolute paths
-            "@src/*": [
-                "src/*"
-            ],
             "@pages/*": [
                 "pages/*"
             ],
             "@components/*": [
                 "components/*"
+            ],
+            "@assets/*": [
+                "assets/*"
             ]
         },
         "experimentalDecorators": true,
